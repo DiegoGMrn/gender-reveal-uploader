@@ -197,10 +197,12 @@ export default function Home() {
                 >
                   <div className="relative aspect-square bg-gray-100">
                     {file.type === 'image' ? (
-                      <img
+                      <Image
                         src={`/uploads/${file.name}`}
                         alt={file.name}
-                        className="w-full h-full object-cover"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                       />
                     ) : file.type === 'video' ? (
                       <video
