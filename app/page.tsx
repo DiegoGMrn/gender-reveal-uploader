@@ -120,7 +120,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <div className="w-2 h-2 rounded-full bg-pink-400 animate-pulse" />
             <h1 className="text-xl font-black tracking-tighter bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">
-              Revelación de Sexo
+              Revelación de Género
             </h1>
             <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse delay-75" />
           </div>
